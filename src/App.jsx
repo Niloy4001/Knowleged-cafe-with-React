@@ -26,14 +26,18 @@ function App() {
   const handleBookMark = (blogs) => {
     const newBlogObj = [...blogObj,blogs];
     setBlogObj(newBlogObj)
-
     setReadingTime(readingTime + blogs.readingTime)
-    // console.log(blogObj);
         
-
-
   }
-  // console.log(blogs);
+  
+
+  const handleMarkAsRead = (id) =>{
+    const newBlogObj = blogObj.filter((item)=> item.id !== id);
+    setBlogObj(newBlogObj)
+    
+    
+    
+  }
 
   return (
     <>
@@ -44,6 +48,7 @@ function App() {
           <Blogs
             blogs={blogs}
             handleBookMark={handleBookMark}
+            handleMarkAsRead={handleMarkAsRead}
           ></Blogs>
           <Bookmark
           blogObj={blogObj}

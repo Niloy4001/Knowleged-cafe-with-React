@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const BookTitle = ({title}) => {
-    console.log(title);
+    // console.log(title);
     
     return (
         <div>
