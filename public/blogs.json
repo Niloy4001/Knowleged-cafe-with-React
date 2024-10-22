@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to JavaScript",
+      "authorName": "John Doe",
+      "authorAvatar": "https://randomuser.me/api/portraits/men/1.jpg",
+      "postDate": "2024-09-21",
+      "readingTime": 10,
+      "courseThumbnail": "https://blob.sololearn.com/assets/introduction-javascript-cover.png",
+      "hashTag": "#JavaScript"
+    },
+    {
+      "id": 2,
+      "title": "Mastering Python for Data Science",
+      "authorName": "Jane Smith",
+      "authorAvatar": "https://randomuser.me/api/portraits/women/1.jpg",
+      "postDate": "2024-08-10",
+      "readingTime": 15,
+      "courseThumbnail": "https://m.media-amazon.com/images/I/71CsFLCpn2L._AC_UF1000,1000_QL80_.jpg",
+      "hashTag": "#Python"
+    },
+    {
+      "id": 3,
+      "title": "React for Beginners",
+      "authorName": "Alice Brown",
+      "authorAvatar": "https://randomuser.me/api/portraits/women/2.jpg",
+      "postDate": "2024-10-05",
+      "readingTime": 12,
+      "courseThumbnail": "https://media.licdn.com/dms/image/D4D12AQHLOphoHIjmoA/article-cover_image-shrink_720_1280/0/1680313616595?e=2147483647&v=beta&t=MDjk4m7S2o2GJeVZGRSsA8WkmumgdYuQiTZfQ2bRkBk",
+      "hashTag": "#React"
+    },
+    {
+      "id": 4,
+      "title": "CSS Flexbox and Grid Layouts",
+      "authorName": "Bob Martin",
+      "authorAvatar": "https://randomuser.me/api/portraits/men/2.jpg",
+      "postDate": "2024-07-18",
+      "readingTime": 8,
+      "courseThumbnail": "https://media.licdn.com/dms/image/v2/D5612AQE_es4z5pMIZA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1714892538827?e=2147483647&v=beta&t=uWDxr1ZEK1CDDjf_e-qs8PcvCeGEhVXcoDhuV9Fe9SI",
+      "hashTag": "#CSS"
+    },
+    {
+      "id": 5,
+      "title": "Full Stack Web Development with MERN",
+      "authorName": "Eve Jackson",
+      "authorAvatar": "https://randomuser.me/api/portraits/women/3.jpg",
+      "postDate": "2024-09-30",
+      "readingTime": 18,
+      "courseThumbnail": "https://www.rlogical.com/wp-content/uploads/2020/12/MERN.webp",
+      "hashTag": "#FullStack"
+    },
+    {
+      "id": 6,
+      "title": "Database Management with MongoDB",
+      "authorName": "Sam Lee",
+      "authorAvatar": "https://randomuser.me/api/portraits/men/3.jpg",
+      "postDate": "2024-06-24",
+      "readingTime": 20,
+      "courseThumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd-CleYWSBX_XhkU6asTtJSSm9PuVwH5HUgw&s",
+      "hashTag": "#MongoDB"
+    },
+    {
+      "id": 7,
+      "title": "Advanced Algorithms in JavaScript",
+      "authorName": "Rachel Green",
+      "authorAvatar": "https://randomuser.me/api/portraits/women/4.jpg",
+      "postDate": "2024-08-14",
+      "readingTime": 25,
+      "courseThumbnail": "https://www.scriptonitejs.com/wp-content/uploads/2018/03/dynamic-programming.jpg",
+      "hashTag": "#Algorithms"
+    },
+    {
+      "id": 8,
+      "title": "Building APIs with Node.js",
+      "authorName": "Mike Wilson",
+      "authorAvatar": "https://randomuser.me/api/portraits/men/4.jpg",
+      "postDate": "2024-07-02",
+      "readingTime": 30,
+      "courseThumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD1Z2FVZN1DkDJuefoDOeBeVfO966NfGXTuA&s",
+      "hashTag": "#NodeJS"
+    },
+    {
+      "id": 9,
+      "title": "Understanding Data Structures",
+      "authorName": "Sophie Turner",
+      "authorAvatar": "https://randomuser.me/api/portraits/women/5.jpg",
+      "postDate": "2024-09-08",
+      "readingTime": 22,
+      "courseThumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230706095706/intro-data-structure-%E2%80%93-1.png",
+      "hashTag": "#DataStructures"
+    },
+    {
+      "id": 10,
+      "title": "DevOps and Continuous Integration",
+      "authorName": "Tom Baker",
+      "authorAvatar": "https://randomuser.me/api/portraits/men/5.jpg",
+      "postDate": "2024-07-25",
+      "readingTime": 40,
+      "courseThumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE6NqiDd8cQ36_LC42Z4CNY-b6e3we9vK2Og&s",
+      "hashTag": "#DevOps"
+    }
+  ]
+  
