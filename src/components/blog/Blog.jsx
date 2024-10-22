@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import { IoBookmarksOutline } from "react-icons/io5";
 
-const Blog = ({ blogs }) => {
-    const { authorAvatar, authorName, courseThumbnail, hashTag,  postDate, readingTime, title } = blogs
+const Blog = ({ blogs, handleBookMark }) => {
+    const { authorAvatar, authorName, courseThumbnail, hashTag, postDate, readingTime, title } = blogs
     // console.log(blogs);
     // console.log(authorAvatar,authorName,courseThumbnail,hashTag,id,postDate,readingTime,title);
 
@@ -21,7 +21,7 @@ const Blog = ({ blogs }) => {
                 </div>
                 <div className='flex items-center gap-2 '>
                     <p>{readingTime} min </p>
-                    <p className='cursor-pointer '><IoBookmarksOutline /></p>
+                    <p className='cursor-pointer ' onClick={() => handleBookMark(blogs)}><IoBookmarksOutline /></p>
                 </div>
             </div>
             <h1 className='text-[#111111] font-bold text-3xl lg:text-[40px] mb-4 '>{title} </h1>
@@ -34,7 +34,8 @@ const Blog = ({ blogs }) => {
 };
 
 Blog.propTypes = {
-    blogs: PropTypes.object.isRequired
+    blogs: PropTypes.object.isRequired,
+    handleBookMark: PropTypes.func.isRequired
 }
 
 export default Blog;
