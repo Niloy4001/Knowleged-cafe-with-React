@@ -8,14 +8,14 @@ const Blog = ({ blogs, handleBookMark, handleMarkAsRead }) => {
 
     return (
         <div>
-            <div className='mb-6 lg:mb-8 '>
+            <div className='mb-4 lg:mb-8 '>
                 <img src={courseThumbnail} alt="" className='w-full md:h-[450px] h-72 rounded-lg object-cover' />
             </div>
-            <div className='flex justify-between items-center mb-4 lg:mb-5 '>
+            <div className='flex justify-between items-center mb-2 lg:mb-5 '>
                 <div className='flex items-center gap-3 '>
                     <div><img src={authorAvatar} alt="" className='w-[60px] h-[60px] rounded-full ' /></div>
                     <div>
-                        <h3 className='text-[#111111] font-bold text-xl lg:text-2xl '>{authorName}</h3>
+                        <h3 className='text-[#111111] font-bold text-base lg:text-2xl '>{authorName}</h3>
                         <p className='text-[#111111]/[0.6] font-semibold text-sm lg:text-base '>{postDate}</p>
                     </div>
                 </div>
@@ -24,10 +24,10 @@ const Blog = ({ blogs, handleBookMark, handleMarkAsRead }) => {
                     <p className='cursor-pointer ' onClick={() => handleBookMark(blogs)}><IoBookmarksOutline /></p>
                 </div>
             </div>
-            <h1 className='text-[#111111] font-bold text-3xl lg:text-[40px] mb-4 '>{title} </h1>
-            <p className='text-[#111111]/[0.6] font-medium text-sm lg:text-base mb-5'>{hashTag} </p>
+            <h1 className='text-[#111111] font-bold text-xl md:text-[40px] mb-2 lg:mb-4 '>{title} </h1>
+            <p className='text-[#111111]/[0.6] font-medium text-sm lg:text-base mb-3 lg:mb-5'>{hashTag} </p>
             <div>
-                <button className='text-[#6047EC] font-semibold text-base lg:text-xl underline' onClick={() => handleMarkAsRead(id)}>Mark as reads</button>
+                <button className='text-[#6047EC] font-semibold text-sm md:text-xl underline' onClick={() => handleMarkAsRead(id)}>Mark as reads</button>
             </div>
         </div>
     );
